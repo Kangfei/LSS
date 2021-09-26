@@ -187,7 +187,7 @@ if __name__ == "__main__":
 	# Model Settings (ONLY FOR CardNet MODEL)
 	parser.add_argument("--num_layers", default=3, type=int,
 						help="number of convolutional layers")
-	parser.add_argument("--model_type", default="GIN", type=str,
+	parser.add_argument("--model_type", default="NNGINConcat", type=str,
 						help="GNN layer type") # GIN, GINE, GAT, NN, GCN, SAGE, NNGIN, NNGINConcat
 	parser.add_argument("--embed_type", default="freq", type=str,
 						help="the node feature encoding type") # freq, n2v, prone, n2v_concat, prone_concat, nrp are tested
