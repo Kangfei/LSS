@@ -259,7 +259,7 @@ if __name__ == "__main__":
 	# Other parameters
 	parser.add_argument("--matching", default="homo", type=str,
 						help="The subgraph matching mode")
-	parser.add_argument('--k', type=int, default=30,
+	parser.add_argument('--k', type=int, default=3,
 						help='decompose hop number.')
 	parser.add_argument("--verbose", default=True, type=bool)
 	parser.add_argument("--mode", default="cross_val", type=str,
