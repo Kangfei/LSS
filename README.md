@@ -22,7 +22,7 @@ conda activate gpcard
 
 
 
-### Usage
+### Quick Start
 Running cross validation
 ```
 python active_train.py    \
